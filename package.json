@@ -7,5 +7,10 @@
     "test": "node new-habit-tracker-item.js"
   },
   "author": "Luis Cabanillas",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^1.0.4",
+    "moment": "^2.29.3",
+    "next_monday": "^1.0.0"
+  }
 }
