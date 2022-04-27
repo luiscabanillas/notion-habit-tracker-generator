@@ -53,7 +53,7 @@ let configs = {
 module.exports = configs;
 ```
 
-### 4. Run the script
+### 5. Run the script
 To create a set of Habit Tracker items for the current week startig from Monday to Friday, run the following command.
 ``` shell
 $ node new-habit-tracker-item.js
