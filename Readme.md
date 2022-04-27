@@ -24,17 +24,23 @@ $ git clone https://github.com/luiscabanillas/notion-habit-tracker-generator.git
 $ npm install
 ```
 
-### 3. Configure your parameters
-> To create an API key you can use with this script, you need to follow the instructions in this link:
+### 3. Prepare your Notion setup
+To create an API key you can use with this script, you need to follow the instructions in this link:
 [Create an integration](https://developers.notion.com/docs/getting-started#step-1-create-an-integration). 
 <br/><br/>
-You will get somethinkg like `Bearer secret_0tddMGvvWIRVBjL52Ul8SK0GsxM0cWevizXoWaqfzsa` as an API key. Make sure to exclude the `Bearer` portion
+You will get somethinkg like `Bearer secret_0tddMGvvWIRVBjL52Ul8SK0GsxM0cWevizXoWaqfzsa` as an API key. Make sure to exclude the `Bearer` when you include it in your configuration later.
 
->To get your database ID in Notion go to the Database page, go to the Share options and click 'Copy Link'. 
+![](https://files.readme.io/2ec137d-093ad49-create-integration.gif)
+
+Make sure you share your database page with your integration for this script to work, otherwise Notion will reject any API calls made for that database.
+![](https://files.readme.io/0a267dd-share-database-with-integration.gif)
+
+To get your database ID in Notion go to the Database page, go to the Share options and click 'Copy Link'. 
 <br/><br/>
-You will get a link like https://www.notion.so/user/**90d4ec4e9b80d0b08967473de213e8c8**?v=e6c6e8a3b2f0f3ea17cc4fda2a8c204e. Where the bolded portion is your database ID.
+You will get a link like `https://www.notion.so/user/`**90d4ec4e9b80d0b08967473de213e8c8**`?v=e6c6e8a3b2f0f3ea17cc4fda2a8c204e`. Where the bolded portion is your database ID.
 
-In the `./configs.js` file, you need to set your Notion API Key, your Notion database ID, and the set of tasks that will be created for each day.
+### 4. Configure your script
+Now that you have tour API Key (withour `Bearer` and Database ID, in the `configs.js` file, you need to set your Notion API Key, your Notion database ID, and the set of tasks that will be created for each day.
 
 ``` js
 
