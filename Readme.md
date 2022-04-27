@@ -39,15 +39,11 @@ module.exports = configs;
 ```
 
 ### 4. Run the script
-
+To create a set of Habit Tracker items for the current week startig from Monday to Friday, run the following command.
 ``` shell
 $ node new-habit-tracker-item.js
 ```
-
-This will create a set of Habit Tracker items for the current week startig from Monday to Friday.
-
+To create a set of Habit Tracker items for a specific week, run the following command, setting the `date` parameter to any day within the target week. This will create items from Monday to Friday of that week, even though the date provided is a different day than Monday.
 ``` shell
 $ node new-habit-tracker-item.js date=2022-04-29
 ```
-
-This will create a set of Habit Tracker items for the week specified by the date parameter starting from Monday to Friday of that week, even though the date provided is a different day than Monday.
