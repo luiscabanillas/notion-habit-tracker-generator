@@ -1,0 +1,11 @@
+{
+  "name": "notion-habit-tracker-generator",
+  "version": "1.0.0",
+  "description": "Habit tracker loader for Notion",
+  "main": "new-habit-tracker-item.js",
+  "scripts": {
+    "test": "node new-habit-tracker-item.js"
+  },
+  "author": "Luis Cabanillas",
+  "license": "ISC"
+}
