@@ -40,7 +40,7 @@ To get your database ID in Notion go to the Database page, go to the Share optio
 You will get a link like `https://www.notion.so/user/`**90d4ec4e9b80d0b08967473de213e8c8**`?v=e6c6e8a3b2f0f3ea17cc4fda2a8c204e`. Where the bolded portion is your database ID.
 
 ### 4. Configure your script
-Now that you have tour API Key (withour `Bearer` and Database ID, in the `configs.js` file, you need to set your Notion API Key, your Notion database ID, and the set of tasks that will be created for each day.
+Now that you have tour API Key (without `Bearer` and Database ID, in the `configs.js` file, you need to set your Notion API Key, your Notion database ID, and the set of tasks that will be created for each day.
 
 ``` js
 
